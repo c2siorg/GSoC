@@ -25,7 +25,7 @@ The main goal of this year's contribution was to make the TensorMap application 
 
 ## [Project Demo Video](http://LinkToDemoVideo)
 
-## [Project Wiki](http://github.com)
+## [Project Wiki](https://github.com/scorelab/tensormap/wiki)
 
 ## [GSoC Blog](http://GSoCBlog)
 
