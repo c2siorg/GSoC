@@ -21,7 +21,7 @@ The main goal of this year's contribution was to make the TensorMap application 
 
 ## [GitHub Personal Repo](https://github.com/Wenuka19)
 
-## [Commits during GSoC 2023](http://github.com/commits)
+## [Commits during GSoC 2023](https://github.com/scorelab/tensormap/commits?author=Wenuka19)
 
 ## [Project Demo Video](http://LinkToDemoVideo)
 
