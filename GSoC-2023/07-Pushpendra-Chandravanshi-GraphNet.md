@@ -21,7 +21,7 @@ Graphnet is a Javascript graph library that is created as a module for the seman
 
 ## [Commits during GSoC 2022](https://github.com/c2siorg/GraphNet/commits?author=Pushpendra766)
 
-## [Project Demo Video](https://www.youtube.com/watch?v=SuEbCeu8hnA)
+## [Project Demo Video](https://www.youtube.com/watch?v=hfLwzCdc4FE)
 
 ## [Project Wiki](https://github.com/Pushpendra766/GraphNet/wiki)
 
@@ -31,6 +31,10 @@ Graphnet is a Javascript graph library that is created as a module for the seman
 
 | PR Link| Description |  Issues Link   | 
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | --------- | 
+| [#12](https://github.com/c2siorg/GraphNet/pull/12)|Nodes repositioning in Circle directed algorithm|  |
+| [#11](https://github.com/c2siorg/GraphNet/pull/11)|Nodes repositioning in Force directed algorithm |  |
+| [#10](https://github.com/c2siorg/GraphNet/pull/10)|Readme and Documentation|  |
+| [#9](https://github.com/c2siorg/GraphNet/pull/9)|Addition of random nodes in runtime |  |
 | [#8](https://github.com/c2siorg/GraphNet/pull/8)|Implemented circle positioning algorithm| [#5](https://github.com/c2siorg/GraphNet/issues/5) |
 | [#7](https://github.com/c2siorg/GraphNet/pull/7)|Implemented force positioning algorithm | [#4](https://github.com/c2siorg/GraphNet/issues/4) |
 | [#6](https://github.com/c2siorg/GraphNet/pull/6)|Restructured the code according to the folder structure| [#2](https://github.com/c2siorg/GraphNet/issues/2) |
