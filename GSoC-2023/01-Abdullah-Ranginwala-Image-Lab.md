@@ -1,5 +1,15 @@
 # ImageLab
 
+## Student Info
+
+- Name: Abdullah Ranginwala
+
+- Email: abdullahranginwala28@gmail.com
+
+- GitHub: [abdullahranginwala](http://github.com/abdullahranginwala)
+
+- Linkedin: [Abdullah Ranginwala](http://linkedin.com/in/abdullahranginwala/)
+
 # Project Abstract
 ImageLab is a standalone tool which supports anyone to get started with image processing related concepts and techniques in an interactive and intuitive manner. The users can build image processing pipelines with the help of blocks and apply the operators to different images.
 
