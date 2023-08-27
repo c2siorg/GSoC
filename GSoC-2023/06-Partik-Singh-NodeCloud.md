@@ -88,7 +88,7 @@ The current implementation of NodeCloud is a core library that supports AWS, Azu
 |Linode unit tests          |https://github.com/leopardslab/nodecloud/issues/178|https://github.com/leopardslab/nodecloud/pull/180|
 |Linode Package             |                    -                              |https://github.com/leopardslab/nodecloud/pull/182|
 |Oracle Package             |                    -                              |https://github.com/leopardslab/nodecloud/pull/183|
-
+|Final Changes and Docs     |                    -                              |https://github.com/leopardslab/nodecloud/pull/189|
 
 # What left
 
