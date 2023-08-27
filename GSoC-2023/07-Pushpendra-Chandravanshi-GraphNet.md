@@ -13,7 +13,7 @@ Graphnet is a Javascript graph library that is created as a module for the seman
 
 ## [GSoC Project Page](https://summerofcode.withgoogle.com/programs/2023/projects/oUeY8arQ)
 
-## [GSoC Project Proposal](https://drive.google.com/file/d/1VMghy4Z6D3h8Rh6hNqOJxAPUoycP1p_M/view?usp=sharing)
+## [GSoC Project Proposal](https://drive.google.com/file/d/1ymCakCOxpYo-KtcsUcOCD2u4pp-2_yD_/view?usp=sharing)
 
 ## [GitHub Organization Repo](https://github.com/c2siorg)
 
