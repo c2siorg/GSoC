@@ -24,9 +24,9 @@ CodeLabz is a platform where users can engage with online tutorials and organiza
 | [#864](https://github.com/scorelab/Codelabz/pull/864) | Merged ✅ | [#839](https://github.com/scorelab/Codelabz/issues/839)
 
 
-## [Project Demo Video](http://LinkToDemoVideo)
+## [Project Demo Video](https://drive.google.com/file/d/1IoYtqlN3ZcYSVOq4UTfMcj-S5kRr-OU4/view?usp=drive_link)
 
-## [Project Wiki](http://github.com)
+## [Project Wiki](https://github.com/scorelab/Codelabz/wiki/Codelabz-Page-(Tutorial-Page))
 
 ## [GSoC Blog](http://GSoCBlog)
 
