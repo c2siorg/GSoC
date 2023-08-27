@@ -28,8 +28,6 @@ CodeLabz is a platform where users can engage with online tutorials and organiza
 
 ## [Project Wiki](https://github.com/scorelab/Codelabz/wiki/Codelabz-Page-(Tutorial-Page))
 
-## [GSoC Blog](http://GSoCBlog)
-
 # Work Summary
 In GSOC 2023 I worked on creating new Pages for Notification, Codelabz Page, Explore(MyFeed) Page, Developed the UI and connected these Pages to the backend.
 Also fixed Home page and MyTutorials page by rendering dynamic data in these pages.
