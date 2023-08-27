@@ -30,7 +30,7 @@ NodeCloud is a standard library to get a single API on the open cloud with multi
 
 ## [Commits during GSoC 2023](https://github.com/leopardslab/nodecloud/commits?author=partik03)
 
-## [Project Demo Video](http://LinkToDemoVideo)
+## [Project Demo Video](https://www.youtube.com/watch?v=hDJWL7q4k98)
 
 ## [Project Tracker During GSoC](https://www.notion.so/GSoC-23-Progress-Report-aba8972a06b94641aec7c4524dfd89ee)
 
@@ -84,6 +84,8 @@ The current implementation of NodeCloud is a core library that supports AWS, Azu
 |Linode Data Extractor      |https://github.com/leopardslab/nodecloud/issues/167|https://github.com/leopardslab/nodecloud/pull/175|
 |Oracle Parser              |https://github.com/leopardslab/nodecloud/issues/164|https://github.com/leopardslab/nodecloud/pull/173|
 |Oracle Data Extractor      |https://github.com/leopardslab/nodecloud/issues/166|https://github.com/leopardslab/nodecloud/pull/174|
+|Oracle Transformer         |https://github.com/leopardslab/nodecloud/issues/168|https://github.com/leopardslab/nodecloud/pull/176|
+|Linode Transformer         |https://github.com/leopardslab/nodecloud/issues/169|https://github.com/leopardslab/nodecloud/pull/177|
 |Oracle unit tests          |https://github.com/leopardslab/nodecloud/issues/179|https://github.com/leopardslab/nodecloud/pull/181|
 |Linode unit tests          |https://github.com/leopardslab/nodecloud/issues/178|https://github.com/leopardslab/nodecloud/pull/180|
 |Linode Package             |                    -                              |https://github.com/leopardslab/nodecloud/pull/182|
