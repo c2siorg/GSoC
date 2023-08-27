@@ -14,7 +14,7 @@ Frontend and Backend Integration in Codelabz
 
 ## [GSoC Project Page](https://summerofcode.withgoogle.com/programs/2023/projects/glRDYyLP)
 
-## [GSoC Project Proposal]([http://LinikToYourGSoCProjectProposal](https://docs.google.com/document/d/1-kJL3oIEYXMuWrSQy7qx-XPqSoo0uUEuqUYz7Ic3ey0/edit#))
+## [GSoC Project Proposal](https://docs.google.com/document/d/1-kJL3oIEYXMuWrSQy7qx-XPqSoo0uUEuqUYz7Ic3ey0/edit#)
 
 ## [GitHub Organization Repo](https://github.com/scorelab/Codelabz)
 
@@ -34,7 +34,7 @@ Frontend and Backend Integration in Codelabz
 | [#812](https://github.com/scorelab/Codelabz/pull/812) | Merged ✅ | [#811](https://github.com/scorelab/Codelabz/issues/811) |
 | [#848](https://github.com/scorelab/Codelabz/pull/848) | Merged ✅ |  |
 
-## [Project Demo Video](http://LinkToDemoVideo)
+## [Project Demo Video](https://drive.google.com/file/d/1-mWSnMp-3YJYwLnBXnVfU4JPoawCRPBW/view?usp=sharing)
 
 ## [Project Wiki](https://github.com/scorelab/Codelabz/wiki)
 
