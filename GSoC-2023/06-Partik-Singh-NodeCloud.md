@@ -93,6 +93,7 @@ The current implementation of NodeCloud is a core library that supports AWS, Azu
 |Final Changes and Docs     |                    -                              |https://github.com/leopardslab/nodecloud/pull/189|
 
 # What left
+The manual testing for the nodecloud oracle plugin is left as api keys for oracle cloud platform could not be acquired due to some issue on their side.
 
 # References
 
