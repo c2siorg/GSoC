@@ -18,7 +18,7 @@
   <img src="https://raw.githubusercontent.com/leopardslab/nodecloud/master/assets/logo.png" >
 </p>
 
-NodeCloud is a standard library to get a single API on the open cloud with multiple providers.It is an API allowing developers to interact with multiple cloud providersusing a unified interface. This abstraction layer helps to hide the implementation details of different cloud providers, making it easier for developers to use cloud services without having to deal with the specifics of each provider.
+NodeCloud is a standard library to get a single API on the open cloud with multiple providers. It is an API that allows developers to interact with multiple cloud providers using a unified interface. This abstraction layer helps to hide the implementation details of different cloud providers, making it easier for developers to use cloud services without having to deal with the specifics of each provider.
 
 ## [GSoC Project Page](https://summerofcode.withgoogle.com/programs/2023/projects/62Zo1VXJ)
 
@@ -44,7 +44,7 @@ NodeCloud is a standard library to get a single API on the open cloud with multi
 
 # Work Summary
 
-The current implementation of NodeCloud is a core library that supports AWS, Azure, GCP and DigitalOcean cloud services as extensible plugins. I worked on extending this plugin functionality built into NodeCloud to include other cloud providers like Oracle and Linode.The project included the implementation of a code generation module to consume the SDK and auto-generate service implementations that can be assembled as the "oracle-plugin" and "linod-plugin" for NodeCloud integration. This is achieved by writing out parsers, generators and transformers specifically made for the SDKs of both cloud providers.
+The current implementation of NodeCloud is a core library that supports AWS, Azure, GCP, and DigitalOcean cloud services as extensible plugins. I worked on extending this plugin functionality built into NodeCloud to include other cloud providers like Oracle and Linode. The project included the implementation of a code generation module to consume the SDK and auto-generate service implementations that can be assembled as the "oracle-plugin" and "linode-plugin" for NodeCloud integration. This is achieved by writing out parsers, generators, and transformers specifically made for the SDKs of both cloud providers.
 
 # What Covered
 
@@ -56,10 +56,10 @@ The current implementation of NodeCloud is a core library that supports AWS, Azu
 - Created a transformer for the Linode code generation module
 - Created a transformer for the Oracle code generation module
 - Performed unit testing for the code generation modules
-- Updated the generator config file with sutaible Oracle and Linode Services
+- Updated the generator config file with suitable Oracle and Linode Services
 - Finalized the plugin for the Linode and Oracle Provider
-- Improved documentation explaining the Directory Structure, flow of tool and details of Oracle and Linode
-- Wrote Examples for implemented Linode and Oracle Services for Nodecloud
+- Improved documentation explaining the Directory Structure, flow of tools, and details of Oracle and Linode
+- Wrote Examples for implementing Linode and Oracle Services for Nodecloud
 
 ### Issues Created
 - Add Dummy Classes for Linode  (#**[162](https://github.com/leopardslab/nodecloud/issues/162)**)
@@ -93,7 +93,7 @@ The current implementation of NodeCloud is a core library that supports AWS, Azu
 |Final Changes and Docs     |                    -                              |https://github.com/leopardslab/nodecloud/pull/189|
 
 # What left
-The manual testing for the nodecloud oracle plugin is left as api keys for oracle cloud platform could not be acquired due to some issue on their side.
+The manual testing for the nodecloud Oracle plugin is left as API keys for Oracle cloud platform could not be acquired due to some issue on their side.
 
 # References
 
