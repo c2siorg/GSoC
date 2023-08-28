@@ -38,7 +38,7 @@ Frontend and Backend Integration in Codelabz
 
 ## [Project Wiki](https://github.com/scorelab/Codelabz/wiki)
 
-## [GSoC Blog](https://medium.com/me/stories/public)
+## [GSoC Blog](https://medium.com/@gsnrhyd6)
 
 # Work Summary
 In GSoC 2023, I worked on improving front-end, creating a new database design and integrating back-end with front-end
