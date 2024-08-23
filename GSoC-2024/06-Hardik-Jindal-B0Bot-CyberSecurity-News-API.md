@@ -31,9 +31,16 @@ All the commits can be foud [here](https://github.com/c2siorg/b0bot/commits/main
 | [#27](https://github.com/c2siorg/b0bot/pull/27) | Update database configuration and integration with Pinecone | Merged |
 | [#28](https://github.com/c2siorg/b0bot/pull/28) | Fixing how data is handled from Pinecone and fixed some issues. | Merged|
 
-## [Project Demo Video](http://LinkToDemoVideo)
+## Project Wiki
+The Project Wiki can be found [here](https://github.com/c2siorg/b0bot/blob/main/README.md)
 
-## [GSoC Blog](http://GSoCBlog)
+# App Screenshots
+
+| Home Page | LLM Page | News Page |
+| :--------:| :-------:| :---------:|
+| ![home](https://github.com/user-attachments/assets/df490584-bed6-41e6-8584-23be81244c4e) | ![llm](https://github.com/user-attachments/assets/33a25082-f747-4055-b1f3-80cb58cc384f) | ![news](https://github.com/user-attachments/assets/47346784-1456-452f-978d-b2cefa09f959) |
+
+## GSoC Blog
 I maintained a blog, describing all my activities for every week in a blog, which can be found [here](https://medium.com/@hardikdlf/gsoc24-with-c2si-org-43c0f03edfbd)
 
 # Work Summary
