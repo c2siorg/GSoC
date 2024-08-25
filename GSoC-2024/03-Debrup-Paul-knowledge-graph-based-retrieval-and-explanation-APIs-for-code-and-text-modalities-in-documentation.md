@@ -19,8 +19,14 @@ In this project, I will be building Knowledge Graph of codes and text modalities
 
 ## [GSoC Blog](https://medium.com/@QuantiPhy/road-to-graph-rag-f729c85e7807g)
 
-# Work Summary
+### Work Summary
+A detailed summary of my work is presented in my [GSoC Blog](https://medium.com/@QuantiPhy/road-to-graph-rag-f729c85e7807g), where I have documented my weekly progress, challenges, and outcomes.
 
-# What Covered
+### What Was Covered
+I focused on foundational research, experimentation, and the creation of modules related to Knowledge Graph creation, retrieval, and evaluation.
 
-# What left
+### What Is Left
+
+From my side, all planned work is complete. However, this project has great future potential, and additional work can be pursued.
+
+---
