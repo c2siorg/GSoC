@@ -4,8 +4,7 @@ Bug-Connector Proposal
 This project provides a system that maps Common Vulnerabilities and Exposures (CVE) data from public sources (like MITRE and NIST) to historical commit data from the Apache repository. The system uses natural language processing (NLP) models, specifically SentenceTransformers, to generate semantic embeddings of text and computes cosine similarity to identify the most relevant commits for each CVE. This allows developers and security researchers to link vulnerabilities to specific code changes, making it easier to track the resolution of security issues in open-source software.
 
 The project is designed as a command-line interface (CLI) tool for ease of use, allowing users to query specific CVEs, view relevant commit messages, and output the results to a file. The system also supports processing large datasets from MITRE and NIST to maintain up-to-date vulnerability mappings.
-## [GSoC Project Page](http://LinikToYourGSoCProjectPage)
-https://summerofcode.withgoogle.com/myprojects
+## [GSoC Project Page](http://LinikToYourGSoCProjectPage)https://summerofcode.withgoogle.com/myprojects
 ## [GSoC Project Proposal](http://LinikToYourGSoCProjectProposal)
 https://summerofcode.withgoogle.com/myprojects/details/rmFUzLkp
 ## [GitHub Organization Repo](http://github.com/repo)
