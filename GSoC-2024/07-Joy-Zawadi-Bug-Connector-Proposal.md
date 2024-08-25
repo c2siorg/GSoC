@@ -13,7 +13,7 @@ The project is designed as a command-line interface (CLI) tool for ease of use, 
 ## [Project Demo Video](http://LinkToDemoVideo)
 
 ## [Project Wiki](https://github.com/dilishwaggins/bug-connector/blob/main/README.md)
-## [GSoC Blog](http://GSoCBlog)
+## [GSoC Blog](https://medium.com/@joy.zawadi32/from-code-newbie-to-gsoc-pro-my-wild-summer-with-googles-open-source-odyssey-708e4be6748d)
 
 # Work Summary
 Phase 1: Historical Data Compilation
