@@ -33,6 +33,28 @@ graph-rag is project under Project Explainer containg 3 modules,for building Kno
 
 ### Work Summary
 
+1. **Knowledge Graph Builder:**
+   - Developed a tool to build a Knowledge Graph from unstructured data (e.g., .md and .py files).
+   - Implemented functionality to load, chunk, and index documents using llama-index.
+   - Set up a local LLM (Llama3) with Ollama for building and querying the Knowledge Graph.
+   - Provided methods to visualize and save the graph as an HTML file.
+   - Experimented Llama-index Property Graph with Relik,built with llama 3.1
+
+2. **Experiments with Models and Embeddings:**
+   - Experimented with various models, embeddings, and libraries to optimize Knowledge Graph construction.
+   - Used models like Salesforce/codegen2-7B_P, Salesforce/codet5p-110m-embedding, and several others, often quantizing them to 4 bits for efficiency.
+   - Focused on open-source models compatible with free Colab environments.
+
+3. **Graph Index Retriever:**
+   - Created a module to load and query a graph index using a Llama-Index query engine.
+   - Integrated advanced training techniques, including QLoRA and P-Tuning, for fine-tuning LLMs to improve retrieval and response quality.
+
+4. **Knowledge Graph Evaluation:**
+   - Developed tools to evaluate the performance of the Knowledge Graph using Llama-Index and Ragas evaluation packs.
+   - Implemented QA generation and critique functionalities, focusing on metrics like groundedness, relevance, and standalone quality.
+   - Provided scripts to create custom test datasets and benchmark GraphRag performance.
+
+This summary encapsulates the core contributions and developments you made during the GSoC period at C2SI.
 
 ### What Was Covered
 I focused on foundational research, experimentation, and the creation of modules related to Knowledge Graph creation, retrieval, and evaluation.
