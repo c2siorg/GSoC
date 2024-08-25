@@ -36,6 +36,39 @@ graph-rag is project under Project Explainer containg 3 modules,for building Kno
 
 ### What Was Covered
 I focused on foundational research, experimentation, and the creation of modules related to Knowledge Graph creation, retrieval, and evaluation.
+- #### [PR1](https://github.com/c2siorg/Project-Explainer/pull/34)
+    The GraphRag folder contains Modules allows users to construct a Knowledge Graph from unstructured data (e.g., .md, .py files).
+    -  Transforms unstructured documents into a structured Knowledge Graph by identifying key entities and relationships.
+    - Utilizes the locally-run llama3 model for advanced content processing.
+    - Outputs an interactive HTML file to explore and view the Knowledge Graph.
+    -  Built to easily support additional data formats and models in the future.
+
+- #### [PR2](https://github.com/c2siorg/Project-Explainer/pull/35)
+    Graph Index Retriever Module, which includes methods for:
+    - Loading a graph index from a pickle file.
+    - Setting up a llama_index query engine.
+    - Querying the graph index.
+
+    These functionalities enable efficient querying of Knowledge Graphs using LLMs.
+
+- #### [PR3](https://github.com/c2siorg/Project-Explainer/pull/36)
+    Contains all artifacts and experiments data for this project
+   - Experiments markdown file
+    - Contains all the experiments that are being performed for building KG
+
+- #### [PR4](https://github.com/c2siorg/Project-Explainer/pull/37)
+    Modules and experiments with regard to graph-rag evaluation
+    -  GraphRag data set generator
+    - Evaluation with Llama-Index
+    - Evaluation with Ragas
+
+
+- #### [PR5](https://github.com/c2siorg/Project-Explainer/pull/39)
+    Modules and experiments with regard to Knowledge Graph retrieval
+    - p-tuning retriever on custom data, used for retrieval of KG
+    - QLora trained retriever on custom data, used for retrieval of KG
+    - Knowledge Graph using llama-index property graphs and relik,stored in neo4j aura-db
+
 
 ### What Is Left
 
