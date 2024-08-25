@@ -1,4 +1,10 @@
-# knowledge-graph-based-retrieval-and-explanation-APIs-for-code-and-text-modalities-in-documentation
+# knowledge graph based retrieval and explanation modules for code and text modalities in documentation
+## Student Info
+  * Name - Debrup Paul
+  * Email - f20212946@goa.bits-pilani.ac.in / debrup.dpsrpk@gmail.com
+  * University - Birla Institue of Technology and Science,Pilani
+  * [GitHub profile](https://github.com/debrupf2946)
+  * [LinkedIn profile]( https://www.linkedin.com/in/debrup-paul-599158227/)
 
 # Project Abstract
 graph-rag is project under Project Explainer containg 3 modules,for building Knowledge Graph from code and text modalities from documentation.
