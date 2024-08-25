@@ -10,7 +10,7 @@ The project is designed as a command-line interface (CLI) tool for ease of use, 
 ## [GitHub Personal Repo](https://github.com/dilishwaggins/bug-connector)
 ## [Commits during GSoC 2024](https://github.com/c2siorg/bug-connector/pull/7/commits)
 
-## [Project Demo Video](https://drive.google.com/drive/u/0/folders/1pwvn2UEM28dvHrUevm4WHkBLVpC8Mclt)
+## [Project Demo Video](https://drive.google.com/file/d/1_ZPwOfSdeO8pgs6oB3dVca6h2sZLOzcv/view?usp=drive_link)
 
 ## [Project Wiki](https://github.com/dilishwaggins/bug-connector/blob/main/README.md)
 ## [GSoC Blog](https://medium.com/@joy.zawadi32/from-code-newbie-to-gsoc-pro-my-wild-summer-with-googles-open-source-odyssey-708e4be6748d)
