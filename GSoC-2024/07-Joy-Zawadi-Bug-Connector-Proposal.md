@@ -22,39 +22,50 @@ The project is designed as a command-line interface (CLI) tool for ease of use, 
 
 # Work Summary
 Phase 1: Historical Data Compilation
+
 Weeks 1-2 (10 hours): Project Setup
 Set up the project, including environment setup and dependency installation.
 Installed key libraries like pandas, sentence-transformers, and scikit-learn.
 Cloned and organized the GitHub repository.
+
 Weeks 3-5 (40 hours): Data Collection
 Developed scripts to gather CVE data from MITRE and NIST via APIs and static files.
 Created web scraping scripts to fetch Apache commit history and processed it into a structured format.
 Ensured data integrity and completeness while working with multiple sources of vulnerability and commit information.
+
 Weeks 6-8 (60 hours): Data Pre-processing
 Preprocessed CVE data and commit messages to normalize the format, handle missing values, and clean the text.
 Applied tokenization and text pre-processing techniques like stopword removal, stemming, and lowercasing for uniformity.
+
 Weeks 9-12 (40 hours): CVE-Commit Matching Algorithms
 Developed matching algorithms based on:
 Timing-based matching: Mapping commits to CVEs based on the date they were committed.
 Cosine similarity: Using semantic similarity to match CVE descriptions to commit messages.
 Evaluated the efficiency of these algorithms and implemented fallback mechanisms for edge cases where timing data was insufficient.
+
 Weeks 13-14 (40 hours): Exploring Feasibility of LLMs
 Explored the use of large language models (LLMs) for improved CVE-to-commit matching.
 Evaluated the SentenceTransformer model and implemented it for computing cosine similarity between CVE descriptions and commit messages.
+
 Phase 2: Real-Time Integration
 Weeks 15-16 (20 hours): Designing System Architecture
 Designed a modular system architecture for real-time CVE monitoring, focusing on scalability and flexibility.
 Defined clear boundaries between components like data loading, data processing, and model application.
+
 Weeks 17-18 (40 hours): Real-Time Pipeline Implementation
 Implemented a real-time pipeline to integrate the historical model with live updates from MITRE and NIST CVE databases.
 Integrated the real-time CVE updates with the Apache commit data to maintain a constantly updated mapping.
+
 Weeks 19-20 (20 hours): System Evaluation
 Developed metrics to evaluate the system’s effectiveness in linking CVEs to commits.
 Conducted system evaluation on a small test dataset to assess accuracy.
+
 Weeks 21-22 (20 hours): Model Refinement
 Refined the cosine similarity-based mapping model based on evaluation feedback and initial results.
+
 Weeks 23-24 (20 hours): Documentation
 Created comprehensive system documentation, including guides on architecture, operation, and contribution.
+
 Weeks 25-26 (20 hours): Final Report
 Prepared the final report summarizing system performance, limitations, and recommendations for future improvements.
 # What Covered
