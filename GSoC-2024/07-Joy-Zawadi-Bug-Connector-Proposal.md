@@ -5,18 +5,14 @@ This project provides a system that maps Common Vulnerabilities and Exposures (C
 
 The project is designed as a command-line interface (CLI) tool for ease of use, allowing users to query specific CVEs, view relevant commit messages, and output the results to a file. The system also supports processing large datasets from MITRE and NIST to maintain up-to-date vulnerability mappings.
 ## [GSoC Project Page](https://summerofcode.withgoogle.com/myprojects)
-## [GSoC Project Proposal](http://LinikToYourGSoCProjectProposal)
-https://summerofcode.withgoogle.com/myprojects/details/rmFUzLkp
-## [GitHub Organization Repo](http://github.com/repo)
-https://github.com/c2siorg/bug-connector
-## [GitHub Personal Repo](http://github.com/repo)
-https://github.com/dilishwaggins/bug-connector
-## [Commits during GSoC 2017](http://github.com/commits)
+## [GSoC Project Proposal](https://summerofcode.withgoogle.com/myprojects/details/rmFUzLkp)
+## [GitHub Organization Repo](https://github.com/c2siorg/bug-connector)
+## [GitHub Personal Repo](https://github.com/dilishwaggins/bug-connector)
+## [Commits during GSoC 2024](https://github.com/c2siorg/bug-connector/pull/7/commits)
 
 ## [Project Demo Video](http://LinkToDemoVideo)
 
-## [Project Wiki](http://github.com)
-https://github.com/dilishwaggins/bug-connector/blob/main/README.md
+## [Project Wiki](https://github.com/dilishwaggins/bug-connector/blob/main/README.md)
 ## [GSoC Blog](http://GSoCBlog)
 
 # Work Summary
