@@ -39,15 +39,15 @@ Applied tokenization and text pre-processing techniques like stopword removal, s
 
 Weeks 9-12 (40 hours): CVE-Commit Matching Algorithms
 Developed matching algorithms based on:
-Timing-based matching: Mapping commits to CVEs based on the date they were committed.
 Cosine similarity: Using semantic similarity to match CVE descriptions to commit messages.
-Evaluated the efficiency of these algorithms and implemented fallback mechanisms for edge cases where timing data was insufficient.
+Evaluated the efficiency of the algorithm and implemented fallback mechanisms for edge cases where timing data was insufficient.
 
 Weeks 13-14 (40 hours): Exploring Feasibility of LLMs
 Explored the use of large language models (LLMs) for improved CVE-to-commit matching.
 Evaluated the SentenceTransformer model and implemented it for computing cosine similarity between CVE descriptions and commit messages.
 
 Phase 2: Real-Time Integration
+
 Weeks 15-16 (20 hours): Designing System Architecture
 Designed a modular system architecture for real-time CVE monitoring, focusing on scalability and flexibility.
 Defined clear boundaries between components like data loading, data processing, and model application.
@@ -56,18 +56,12 @@ Weeks 17-18 (40 hours): Real-Time Pipeline Implementation
 Implemented a real-time pipeline to integrate the historical model with live updates from MITRE and NIST CVE databases.
 Integrated the real-time CVE updates with the Apache commit data to maintain a constantly updated mapping.
 
-Weeks 19-20 (20 hours): System Evaluation
-Developed metrics to evaluate the system’s effectiveness in linking CVEs to commits.
-Conducted system evaluation on a small test dataset to assess accuracy.
-
-Weeks 21-22 (20 hours): Model Refinement
-Refined the cosine similarity-based mapping model based on evaluation feedback and initial results.
-
-Weeks 23-24 (20 hours): Documentation
+Weeks 19-20 (20 hours):Documentation
 Created comprehensive system documentation, including guides on architecture, operation, and contribution.
 
-Weeks 25-26 (20 hours): Final Report
+Weeks 21-22(20 hours): Final Report
 Prepared the final report summarizing system performance, limitations, and recommendations for future improvements.
+
 # What Covered
 -Data Collection and Preprocessing: Comprehensive scripts were developed to collect CVE and commit data from MITRE, NIST, and Apache repositories.
 
