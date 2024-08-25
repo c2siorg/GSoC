@@ -1,7 +1,10 @@
 # knowledge-graph-based-retrieval-and-explanation-APIs-for-code-and-text-modalities-in-documentation
 
 # Project Abstract
-In this project, I will be building Knowledge Graph of codes and text modalities from documentation using noe4j, LLms, and langchain. The Knowledge Graph will used for efficient retrieval and explanation. It will help in overcoming the problem of hallucination and the accuracy of the task, all these will be wrapped inside streamlit UI and Flask API.
+graph-rag is project under Project Explainer containg 3 modules,for building Knowledge Graph from code and text modalities from documentation.
+- Knowledge graph builder
+- Knowledge graph retriever
+- Knowledge graph evaluation
 
 ## [GSoC Project Page](https://summerofcode.withgoogle.com/programs/2024/projects/jf5D7VwU)
 
@@ -9,18 +12,21 @@ In this project, I will be building Knowledge Graph of codes and text modalities
 
 ## [GitHub Organization Repo](https://github.com/c2siorg/Project-Explainer)
 
-## [GitHub Personal Repo](https://github.com/debrupf2946)
+## [GitHub Personal Repo](https://github.com/c2siorg/Project-Explainer/tree/main)
 
-## [Commits during GSoC 2024](http://github.com/commits)
+## [Commits during GSoC 2024](https://github.com/c2siorg/Project-Explainer/pulls?q=is%3Apr+author%3Adebrupf2946+)
 
-## [Project Demo Video](http://LinkToDemoVideo)
+## [Project Demo Video]()
+- [Knowledge Graph Evaluation](https://github.com/c2siorg/Project-Explainer/blob/main/graph_rag/evaluation/README.MD)
+- [Knowledge Graph Builder](https://github.com/c2siorg/Project-Explainer/blob/main/graph_rag/graph_builder/README.MD)
+- [Knowledge Graph Retriever](https://github.com/c2siorg/Project-Explainer/blob/main/graph_rag/graph_retrieval/README.MD)
 
-## [Project Wiki](http://github.com)
+## [Project Wiki](https://github.com/c2siorg/Project-Explainer/blob/main/README.md)
 
-## [GSoC Blog](https://medium.com/@QuantiPhy/road-to-graph-rag-f729c85e7807g)
+## [GSoC Blog](https://medium.com/@QuantiPhy/road-to-graph-rag-f729c85e7807)
 
 ### Work Summary
-A detailed summary of my work is presented in my [GSoC Blog](https://medium.com/@QuantiPhy/road-to-graph-rag-f729c85e7807g), where I have documented my weekly progress, challenges, and outcomes.
+
 
 ### What Was Covered
 I focused on foundational research, experimentation, and the creation of modules related to Knowledge Graph creation, retrieval, and evaluation.
