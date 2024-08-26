@@ -18,7 +18,7 @@ This improved UI makes it easier to execute commands, examine program state, and
 
 ### [Commits during GSoC 2024](https://github.com/c2siorg/GDB-UI/commits/main/?author=Shubh942)
 
-### [Project Demo Video]()
+### [Project Demo Video](https://drive.google.com/file/d/1X1qPrkMlBhs2g28geCq6cgyQia_xf1Lf/view?usp=sharing)
 
 ### [Project Wiki](https://github.com/c2siorg/GDB-UI/blob/main/README.md)
 
