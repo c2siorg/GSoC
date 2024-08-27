@@ -18,7 +18,7 @@ As open-source Large Language Models (LLMs) continue to gain popularity, their u
 #### [GitHub Personal Repo](https://github.com/hardik1408/b0bot)
 
 ## Commits during GSoC 2024
-All the commits can be foud [here](https://github.com/c2siorg/b0bot/commits/main/)
+All the commits can be found [here](https://github.com/c2siorg/b0bot/commits/main/)
 | PR Link | Description | Status |
 | :-------: | ------- | ------- |
 | [#20](https://github.com/c2siorg/b0bot/pull/20) | Shift to Open LLMs | Merged |
@@ -30,6 +30,7 @@ All the commits can be foud [here](https://github.com/c2siorg/b0bot/commits/main
 | [#26](https://github.com/c2siorg/b0bot/pull/26) | Updated Documentation | Merged |
 | [#27](https://github.com/c2siorg/b0bot/pull/27) | Update database configuration and integration with Pinecone | Merged |
 | [#28](https://github.com/c2siorg/b0bot/pull/28) | Fixing how data is handled from Pinecone and fixed some issues. | Merged|
+| [#29](https://github.com/c2siorg/b0bot/pull/29) | Revamped UI and updated documentation | Merged | 
 
 ## Project Wiki
 The Project Wiki can be found [here](https://github.com/c2siorg/b0bot/blob/main/README.md)
