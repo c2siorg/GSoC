@@ -2,15 +2,15 @@
 
 # Project Abstract
 
-## [GSoC Project Page](http://LinikToYourGSoCProjectPage)
+## [GSoC Project Page](http://LinkToYourGSoCProjectPage)
 
-## [GSoC Project Proposal](http://LinikToYourGSoCProjectProposal)
+## [GSoC Project Proposal](http://LinkToYourGSoCProjectProposal)
 
 ## [GitHub Organization Repo](http://github.com/repo)
 
 ## [GitHub Personal Repo](http://github.com/repo)
 
-## [Commits during GSoC 2017](http://github.com/commits)
+## [Commits during GSoC YYYY](http://github.com/commits)
 
 ## [Project Demo Video](http://LinkToDemoVideo)
 
@@ -23,5 +23,3 @@
 # What Covered
 
 # What left
-
-#
