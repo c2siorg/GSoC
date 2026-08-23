@@ -12,7 +12,7 @@ b0bot is a cybersecurity news intelligence platform. This project rebuilt its AI
 
 ## [Commits during GSoC 2026](https://github.com/c2siorg/b0bot/commits/main/?author=VishakBaddur)
 
-## [Project Demo Video](http://LinkToDemoVideo)
+## [Project Demo Video](https://www.youtube.com/watch?v=ut6X1RhyXHU)
 
 ## [Project Wiki](https://github.com/c2siorg/b0bot/blob/main/README.md)
 N/A - no separate wiki. Project documentation lives in the README
@@ -44,6 +44,5 @@ Along the way, I found and fixed a real Ask AI accuracy bug after the feature ha
 As of this writing:
 - PR #247 (legacy code cleanup) and PR #248 (README rewrite, further legacy removal, test/dependency fixes) are both open, pending mentor review
 - No live-hosted demo: evaluated Vercel (architecturally incompatible - two of three services are long-running background workers, not serverless-compatible), then Neon + Render (workable, but api-service's combined ML model memory footprint exceeds free-tier RAM limits; the paid tier needed to fix this reliably was not pursued). Project runs fully via docker compose up locally instead, documented in the README.
-- Final project demo video, in progress
 - OTP verification for subscription signup was in the original proposal scope but descoped by mentor decision during the project
 - CI/CD (GitHub Actions lint + test workflow) is Aqib's ownership area, in progress
