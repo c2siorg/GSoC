@@ -6,7 +6,7 @@ TensorMap - Complete Neural Network Design Studio & Visual ML Model Builder
 - **GitHub Profile:** https://github.com/kartikeyg0104
 - **Email:** kartikeyf12@gmail.com
 - **Medium:** https://medium.com/@kartikeygupta_
-- **LinkedIn:** [Your LinkedIn if available]
+- **LinkedIn:** https://www.linkedin.in/kartikeyg0104
 
 ## Project Abstract
 TensorMap is an open-source visual neural network design platform developed for the Ceylon Computer Science Institute (C2SI). The platform enables users to build, train, and analyze machine learning models through an intuitive drag-and-drop interface without writing code. 
