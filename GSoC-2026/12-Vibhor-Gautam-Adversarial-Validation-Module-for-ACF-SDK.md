@@ -35,15 +35,15 @@ I also added a separate external runner in PR [#73](https://github.com/c2siorg/A
 | [#63](https://github.com/c2siorg/ACF-SDK/pull/63) | Made memory reads fail closed when HMAC proof is absent |
 | [#64](https://github.com/c2siorg/ACF-SDK/pull/64) | Activated the destination allowlist gate |
 | [#66](https://github.com/c2siorg/ACF-SDK/pull/66) | Preserved attack categories through the scan stage |
+| [#72](https://github.com/c2siorg/ACF-SDK/pull/72) | Added 16 benign hard negatives authored by Kavishka Fernando, with 9 strict passes and 7 tracked false-positive gaps |
+| [#74](https://github.com/c2siorg/ACF-SDK/pull/74) | Switched to thread-safe Aho-Corasick matching and added a concurrent regression test |
 
 ## Work submitted for review
 
-| PR | Work | State on Aug 23 |
+| PR | Work | State on Aug 24 |
 | --- | --- | --- |
 | [#41](https://github.com/c2siorg/ACF-SDK/pull/41) | Pre-GSoC observability branch rebased during GSoC with new trace and audit correlation tests | Open, mergeable, CI green |
-| [#72](https://github.com/c2siorg/ACF-SDK/pull/72) | 16 benign hard negatives authored by Kavishka Fernando, with 9 strict passes and 7 tracked false-positive gaps | Open, mergeable, CI green |
 | [#73](https://github.com/c2siorg/ACF-SDK/pull/73) | Pinned external benchmark replay through the Python SDK and live sidecar | Open, approved, mergeable, CI green |
-| [#74](https://github.com/c2siorg/ACF-SDK/pull/74) | Thread-safe Aho-Corasick matching and concurrent regression tests | Open, mergeable, CI green |
 
 # What Covered
 
@@ -52,7 +52,7 @@ I also added a separate external runner in PR [#73](https://github.com/c2siorg/A
 - Policy fixtures and live integration cases cover prompt injection, indirect context injection, unsafe tool calls, and memory poisoning
 - The harness uses the real HMAC, nonce, framing, IPC, scan, aggregation, OPA, and executor path
 - Expected and desired decisions make open security gaps visible without hiding current behaviour
-- PR #72 adds the missing benign side of the corpus and grows it from 58 to 74 cases
+- PR #72 added the missing benign side of the corpus and grew it from 58 to 74 cases
 
 ## Fixes driven by the harness
 
@@ -61,7 +61,7 @@ I also added a separate external runner in PR [#73](https://github.com/c2siorg/A
 - Memory reads without an HMAC proof fail closed
 - Destination allowlist checks are active through configuration
 - Pattern hits keep their attack category through scan, aggregation, and policy analysis
-- PR #74 found a shared-matcher race. Before the fix, repeated 2,000-call runs missed 217 to 341 known matches. After the fix, 8,000 live requests across concurrency 1, 4, 16, and 32 returned 0 wrong decisions
+- PR #74 found a shared-matcher race. Before the fix, repeated 2,000-call runs missed 217 to 341 known matches. The merged branch now includes a 2,000-call synchronized regression test. Manual runs at concurrency 1, 4, 16, and 32 returned 0 wrong decisions
 
 ## External benchmark replay
 
@@ -84,12 +84,12 @@ PR #41 started before the GSoC coding period. During GSoC I rebased it onto the 
 - SDK semantic signals and sidecar decisions are different measurements. The external runner records both instead of treating a scanner signal as a blocked attack
 - Some ACF patterns were based on public prompt-injection sources. Exact-overlap exclusion reduces 1 obvious contamination risk, but it is not a held-out benchmark
 - Go can cache integration tests when only policy data changes. Corpus decisions must be checked with `-count=1`
-- Correct single-request tests did not expose the shared Aho-Corasick matcher race. The live concurrency test in PR #74 did
+- Correct single-request tests did not expose the shared Aho-Corasick matcher race. The concurrent regression test in PR #74 did
 - Negative benchmark results are useful when the runner is reproducible and the claim stays narrow
 
 # What left
 
-- Merge the open correctness and evaluation PRs in the agreed order, then rerun PR #73 against the final corrected main branch
+- Merge the remaining observability and evaluation PRs in the agreed order, then rerun PR #73 against the final corrected main branch
 - Add an `on_tool_result` hook so injected tool responses no longer use `on_context` as a proxy
 - Add AgentDojo extraction and a model-in-the-loop experiment for agent attack success rate
 - Request access to the full PINT evaluation set. The public repository contains only an 8-case format sample
