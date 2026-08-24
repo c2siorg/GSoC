@@ -39,7 +39,7 @@ These redirects were mentor-directed and resulted in a more complete enforcement
 | PR      | Work                                                                                                                                                                           |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **#19** | OPA/Rego policy templates for all four hooks. 1,230 lines with 102 passing OPA tests.                                                                                          |
-| **#50** | Fail-closed tool allowlist enforcement and memory-jailbreak SANITISE path fix.                                                                                                 |
+| **#50** | Memory-jailbreak SANITISE path fix.                                                                                                                                            |
 | **#51** | LangGraph FirewallNode adapter. BLOCK halts the graph; SANITISE rewrites state in place.                                                                                       |
 | **#55** | SANITISE canonical-span security fix. Independently discovered and fixed.                                                                                                      |
 | **#58** | Semantic scanner package port. Five modules, 24 tests, and two bugs fixed during review.                                                                                       |
@@ -47,15 +47,15 @@ These redirects were mentor-directed and resulted in a more complete enforcement
 | **#61** | FirewallBlocked exception replacing deprecated NodeInterrupt behaviour, with two runnable adapter examples.                                                                    |
 | **#62** | Detection-rate evaluation over 58 adversarial payloads, including threshold tradeoff analysis.                                                                                 |
 | **#65** | Per-backend threshold calibration. TF-IDF threshold: 0.85; sentence-transformer threshold: 0.50. Increased attacks caught by 67% at zero false positives on the evaluated set. |
+| **#68** | Pattern library expansion from 53 to 79 patterns, closing 5 new corpus gaps (ap-087, ap-088, ap-089, ap-095, ap-102).                                                               |
 
 ## Pull Requests Submitted for Review
 
 | PR      | State           | Work                                                                                                                                                                                 |
 | ------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **#67** | Open, mergeable | Docker demo with six scenarios across all four hooks.                                                                                                                                |
-| **#68** | Open, mergeable | Pattern library expansion from 53 to 79 patterns, closing 11 of 25 known corpus gaps.                                                                                                |
 | **#71** | Open, mergeable | Agent Kernel adapter with InputGuardrail and OutputGuardrail. 12 tests.                                                                                                              |
-| **#77** | Open, mergeable | Multilingual model, background calibration, and field-aware extraction. 30/47 English attacks and 28/32 multilingual attacks detected at zero false positives on the evaluated sets. |
+| **#77** | Open, mergeable | Multilingual model, background calibration, and field-aware extraction. 30/47 English attacks at 0 FP on the evaluated benign set, 28/32 multilingual attacks at 0 FP on the evaluated benign set. |
 
 # What I Covered
 
@@ -99,11 +99,11 @@ In the **30-language transfer evaluation**, the English-only MiniLM model detect
 
 A separate evaluation corpus produced:
 
-* **30/47 English attacks** detected at 0 false positives
-* **28/32 multilingual attacks** detected at 0 false positives
+* **30/47 English attacks** detected at 0 false positives on the evaluated benign set
+* **28/32 multilingual attacks** detected at 0 false positives on the evaluated benign set
 * Noise floor reduced from **0.674 to 0.000**
 
-I also added **background calibration**, replacing manually tuned thresholds with thresholds derived from the evaluation data.
+I also added **background calibration**, replacing manually tuned thresholds with thresholds derived from a benign background corpus.
 
 ## 5. Framework Adapters
 
@@ -135,12 +135,12 @@ One scenario demonstrates the semantic scanner detecting a paraphrased attack wi
 
 ## 7. Pattern Library
 
-Expanded the jailbreak pattern library from **53 to 79 patterns**, closing **11 of 25 known adversarial corpus gaps** with zero regressions in the existing test suite.
+Expanded the jailbreak pattern library from **53 to 79 patterns**, closing **5 new adversarial corpus gaps** (ap-087, ap-088, ap-089, ap-095, ap-102) with zero regressions in the existing test suite.
 
 # What Remains
 
 * **Go-side syntax coverage:** remaining gaps include bare `&`, glob characters, sensitive path detection, and `1 → l` versus `1 → i` normalization. These are syntactic cases that semantic embeddings are not designed to reliably detect.
-* **ONNX Runtime backend:** architecture already supports it; measured performance indicates a potential **5.2× speedup at 1.49 ms**.
+* **ONNX Runtime backend:** architecture already supports it; measured performance indicates a potential **5.2x speedup at 1.49 ms**.
 * **Paper evaluation:** remaining sections include RQ3 and RQ5, baseline comparisons against DeBERTa and LlamaGuard, and confidence intervals for detection metrics.
 
 # Challenges and Lessons
@@ -165,7 +165,7 @@ The lesson was straightforward: **measure the specific implementation you are cl
 
 Every change to the model or pattern library could shift the score distribution and require manual threshold adjustment.
 
-Background calibration makes the threshold a property of the evaluation data rather than a hard-coded configuration value. This makes the system more robust to changes underneath the scanner.
+Background calibration makes the threshold a property of the benign background corpus rather than a hard-coded configuration value. This makes the system more robust to changes underneath the scanner.
 
 ## The semantic layer's job is meaning, not syntax.
 
